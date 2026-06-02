@@ -88,7 +88,53 @@ font-size:20px;
 margin-top:20px;
 text-decoration:none;
 }
+.scelta-box {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #f5f9f7;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
 
+.scelta-img img {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+.scelta-text {
+  flex: 1;
+}
+
+.scelta-text h2 {
+  color: #062344;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.scelta-text p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.scelta-text ul {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .scelta-box {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 .footer{
 padding:25px;
 background:#031529;
@@ -162,7 +208,29 @@ Aiutiamo famiglie e attività a ottenere una bolletta più leggera attraverso co
 
 </section>
 
+<section class="scelta-box">
 
+  <div class="scelta-img">
+    <img src="78c268e7-d666-4fb9-8db1-f971294b2177.png" alt="Il risparmio inizia da una scelta">
+  </div>
+
+  <div class="scelta-text">
+    <h2>Il risparmio inizia da una scelta</h2>
+
+    <p>
+      Molti pagano la bolletta.<br>
+      Pochi si chiedono se stanno pagando troppo.
+    </p>
+
+    <ul>
+      <li>✅ Verifica gratuita</li>
+      <li>✅ Nessun impegno</li>
+      <li>✅ Più consapevolezza, più risparmio</li>
+    </ul>
+
+  </div>
+
+</section>
 <section class="cta">
 
 <h2>La maggior parte paga una bolletta.<br>Tu puoi imparare a renderla più leggera.</h2>

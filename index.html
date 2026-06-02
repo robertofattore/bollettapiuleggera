@@ -141,7 +141,40 @@ background:#031529;
 color:white;
 text-align:center;
 }
+.testimonianze {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 40px 20px;
+  text-align: center;
+}
 
+.testimonianze h2 {
+  color: #062344;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.testimonianze-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.testimonianza {
+  background: white;
+  padding: 28px;
+  border-radius: 22px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.10);
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.stelle {
+  color: #8bc53f;
+  font-size: 22px;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
 </style>
 </head>
 
@@ -234,7 +267,31 @@ Una verifica gratuita ti permette di capire se stai pagando il giusto e quali so
   </div>
 
 </section>
-<section class="cta">
+<section class="testimonianze">
+
+  <h2>Cosa ci dicono le persone</h2>
+
+  <div class="testimonianze-box">
+
+    <div class="testimonianza">
+      <div class="stelle">★★★★★</div>
+      <p>"Servizio semplice e chiaro. Ho ricevuto informazioni utili e una consulenza senza impegno."</p>
+    </div>
+
+    <div class="testimonianza">
+      <div class="stelle">★★★★★</div>
+      <p>"Ho scoperto soluzioni che non conoscevo e ho potuto valutare tutto con serenità."</p>
+    </div>
+
+    <div class="testimonianza">
+      <div class="stelle">★★★★★</div>
+      <p>"Professionalità, chiarezza e attenzione alle esigenze della mia famiglia."</p>
+    </div>
+
+  </div>
+
+</section>
+  <section class="cta">
 
 <h2>La maggior parte paga una bolletta.<br>Tu puoi imparare a renderla più leggera.</h2>
 
